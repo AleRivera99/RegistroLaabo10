@@ -5,5 +5,4 @@ const registerController = require
 
 router.get("/", registerController.getRegister);
 router.post("/", registerController.insert);
-router.get("/:id", registerController.getOneRegister);
 module.exports = router;
